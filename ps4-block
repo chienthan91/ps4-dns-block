@@ -142,3 +142,41 @@ web-*.share.srv.nintendo.net
 assets-*.share.srv.nintendo.net
 # //Log Server
 receive-*.*.srv.nintendo.net
+### //Updates
+# //Check for System Updatesv
+sun.hac.*.d4c.nintendo.net
+# //Check for Updates and Check Required System Update; Needed to GameUpdates
+aqua.hac.*.d4c.nintendo.net
+# //Check for Updates and Get TitleInfo; Needed to GameUpdates
+superfly.hac.*.d4c.nintendo.net
+# //CDN-Download for Games/Updates; Needed to GameUpdates
+atum.hac.*.d4c.nintendo.net
+# //CDN-Download for System Apps
+atumn.hac.*.d4c.nintendo.net
+# //VersionList for Games
+tagaya.hac.*.eshop.nintendo.net
+# //Sugar and Civil?
+pearljam.hac.*.eshop.nintendo.net
+### //Account
+# //Access to Account and eShop
+accounts.nintendo.com
+# //Account Metadata (Needed to Play Online)
+api.accounts.nintendo.com
+# //Account Metadata, Blocked Friends, View and Add Friends (Needed to Play Online)
+*.baas.nintendo.com
+### //eShop
+# //Access to eShop
+bugyo.hac.*.eshop.nintendo.net
+# //Access to eShop and GetTickets/AccountStatus
+ecs-*.hac.shop.nintendo.net
+# //Download Games/App from eShop
+pushmo.hac.*.eshop.nintendo.net
+# //Reg-Challenge-Unreg-RegInfo-TicketSync-AccountTransfer-SyncReg
+ias-*.hac.shop.nintendo.net
+### //News and Content
+# //News&Content Topics
+bcat-topics-*.cdn.nintendo.net
+# //News&Content List
+bcat-list-*.cdn.nintendo.net
+service-status-*.cdn.nintendo.net;
+g*-*.s.n.srv.nintendo.net;
