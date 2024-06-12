@@ -135,9 +135,11 @@
 0.0.0.0 aauth-*.ndas.srv.nintendo.net
 # //Device Authentication; Generates the Device Key (Needed to Play Online)
 0.0.0.0 dauth-*.ndas.srv.nintendo.net
+0.0.0.0 *.ndas.srv.nintendo.net
 # //Get App Data
 0.0.0.0 api-*.*.srv.nintendo.net
 # //Get App Data
+0.0.0.0 *.npns.srv.nintendo.net
 0.0.0.0 app-*.*.npns.srv.nintendo.net
 0.0.0.0 broker.*.npns.srv.nintendo.net;
 0.0.0.0 consumer.*.npns.srv.nintendo.net;
@@ -145,11 +147,14 @@
 0.0.0.0 web-*.share.srv.nintendo.net
 # //Social Network Share
 0.0.0.0 assets-*.share.srv.nintendo.net
+0.0.0.0 *.share.srv.nintendo.net
 # //Log Server
 0.0.0.0 receive-*.*.srv.nintendo.net
+0.0.0.0 *.srv.nintendo.net
 ### //Updates
 # //Check for System Updatesv
 0.0.0.0 sun.hac.*.d4c.nintendo.net
+0.0.0.0 *.d4c.nintendo.net
 # //Check for Updates and Check Required System Update; Needed to GameUpdates
 0.0.0.0 aqua.hac.*.d4c.nintendo.net
 # //Check for Updates and Get TitleInfo; Needed to GameUpdates
@@ -171,20 +176,25 @@
 0.0.0.0 *.baas.nintendo.com
 ### //eShop
 # //Access to eShop
-0.0.0.0 bugyo.hac.*.eshop.nintendo.net
+#0.0.0.0 bugyo.hac.*.eshop.nintendo.net
+0.0.0.0 bugyo.hac.lp1.eshop.nintendo.net
 # //Access to eShop and GetTickets/AccountStatus
-0.0.0.0 ecs-*.hac.shop.nintendo.net
+#0.0.0.0 ecs-*.hac.shop.nintendo.net
+0.0.0.0 *.eshop.nintendo.net
 # //Download Games/App from eShop
 0.0.0.0 pushmo.hac.*.eshop.nintendo.net
 # //Reg-Challenge-Unreg-RegInfo-TicketSync-AccountTransfer-SyncReg
 0.0.0.0 ias-*.hac.shop.nintendo.net
+0.0.0.0 *.hac.shop.nintendo.net
 ### //News and Content
 # //News&Content Topics
-0.0.0.0 bcat-topics-*.cdn.nintendo.net
+#0.0.0.0 bcat-topics-*.cdn.nintendo.net
+0.0.0.0 bcat-topics-lp1.cdn.nintendo.net
 # //News&Content List
 0.0.0.0 bcat-list-*.cdn.nintendo.net
 0.0.0.0 service-status-*.cdn.nintendo.net;
 0.0.0.0 g*-*.s.n.srv.nintendo.net;
 ### //Game Checks CERT, Gold, etc...
 # //Checks the Game CERT, RetrieveGold Feature, Link Device and VirtualAccount?
-0.0.0.0 beach.hac.*.eshop.nintendo.net
+#0.0.0.0 beach.hac.*.eshop.nintendo.net
+0.0.0.0 *.eshop.nintendo.net
