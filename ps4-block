@@ -135,13 +135,9 @@
 #0.0.0.0 aauth-*.ndas.srv.nintendo.net
 # //Device Authentication; Generates the Device Key (Needed to Play Online)
 #0.0.0.0 dauth-*.ndas.srv.nintendo.net
-0.0.0.0 *.ndas.srv.nintendo.net
-0.0.0.0 *ndas.srv.nintendo.net
 # //Get App Data
 #0.0.0.0 api-*.*.srv.nintendo.net
 # //Get App Data
-0.0.0.0 *.npns.srv.nintendo.net
-0.0.0.0 *npns.srv.nintendo.net
 #0.0.0.0 app-*.*.npns.srv.nintendo.net
 #0.0.0.0 broker.*.npns.srv.nintendo.net;
 #0.0.0.0 consumer.*.npns.srv.nintendo.net;
@@ -149,30 +145,34 @@
 #0.0.0.0 web-*.share.srv.nintendo.net
 # //Social Network Share
 #0.0.0.0 assets-*.share.srv.nintendo.net
-0.0.0.0 *.share.srv.nintendo.net
-0.0.0.0 *share.srv.nintendo.net
 # //Log Server
 #0.0.0.0 receive-*.*.srv.nintendo.net
 0.0.0.0 receive-lp1.dg.srv.nintendo.net
 ### Adding hosts
+0.0.0.0 receive-lp1.er.srv.nintendo.net
 0.0.0.0 *.srv.nintendo.net
 0.0.0.0 *srv.nintendo.net
 0.0.0.0 *.dg.srv.nintendo.net
 0.0.0.0 *dg.srv.nintendo.net
-0.0.0.0 receive-lp1.er.srv.nintendo.net
 0.0.0.0 *.er.srv.nintendo.net
 0.0.0.0 *er.srv.nintendo.net
 0.0.0.0 *.ndas.srv.nintendo.net
 0.0.0.0 *ndas.srv.nintendo.net
+0.0.0.0 *.npns.srv.nintendo.net
+0.0.0.0 *npns.srv.nintendo.net
 0.0.0.0 *.nso.nintendo.net
 0.0.0.0 *nso.nintendo.net
 0.0.0.0 *.n.n.srv.nintendo.net
 0.0.0.0 *n.n.srv.nintendo.net
+0.0.0.0 *.share.srv.nintendo.net
+0.0.0.0 *share.srv.nintendo.net
+0.0.0.0 *.d4c.nintendo.net
+0.0.0.0 *d4c.nintendo.net
+0.0.0.0 *.hac.shop.nintendo.net
+0.0.0.0 *hac.shop.nintendo.net
 ### //Updates
 # //Check for System Updatesv
 #0.0.0.0 sun.hac.*.d4c.nintendo.net
-0.0.0.0 *.d4c.nintendo.net
-0.0.0.0 *d4c.nintendo.net
 # //Check for Updates and Check Required System Update; Needed to GameUpdates
 0.0.0.0 aqua.hac.*.d4c.nintendo.net
 # //Check for Updates and Get TitleInfo; Needed to GameUpdates
@@ -182,9 +182,9 @@
 # //CDN-Download for System Apps
 0.0.0.0 atumn.hac.*.d4c.nintendo.net
 # //VersionList for Games
-0.0.0.0 tagaya.hac.*.eshop.nintendo.net
+#0.0.0.0 tagaya.hac.*.eshop.nintendo.net
 # //Sugar and Civil?
-0.0.0.0 pearljam.hac.*.eshop.nintendo.net
+#0.0.0.0 pearljam.hac.*.eshop.nintendo.net
 ### //Account
 # //Access to Account and eShop
 0.0.0.0 accounts.nintendo.com
@@ -205,8 +205,6 @@
 0.0.0.0 pushmo.hac.*.eshop.nintendo.net
 # //Reg-Challenge-Unreg-RegInfo-TicketSync-AccountTransfer-SyncReg
 0.0.0.0 ias-*.hac.shop.nintendo.net
-0.0.0.0 *.hac.shop.nintendo.net
-0.0.0.0 *hac.shop.nintendo.net
 ### //News and Content
 # //News&Content Topics
 #0.0.0.0 bcat-topics-*.cdn.nintendo.net
