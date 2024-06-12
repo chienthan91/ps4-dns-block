@@ -199,6 +199,11 @@
 0.0.0.0 receive-lp1.er.srv.nintendo.net
 0.0.0.0 nncs2-lp1.n.n.srv.nintendo.net
 0.0.0.0 aauth-lp1.ndas.srv.nintendo.net
+0.0.0.0 dragons.hac.lp1.dragons.nintendo.net
+0.0.0.0 god.hac.lp1.penne.srv.nintendo.net
+0.0.0.0 pushmo.hac.lp1.eshop.nintendo.net
+0.0.0.0 *.lp1.eshop.nintendo.net
+0.0.0.0 *lp1.eshop.nintendo.net
 0.0.0.0 *.srv.nintendo.net
 0.0.0.0 *srv.nintendo.net
 0.0.0.0 *.dg.srv.nintendo.net
@@ -209,6 +214,10 @@
 0.0.0.0 *ndas.srv.nintendo.net
 0.0.0.0 *.npns.srv.nintendo.net
 0.0.0.0 *npns.srv.nintendo.net
+0.0.0.0 *.lp1.penne.srv.nintendo.net
+0.0.0.0 *lp1.penne.srv.nintendo.net
+0.0.0.0 *.penne.srv.nintendo.net
+0.0.0.0 *penne.srv.nintendo.net
 0.0.0.0 *.nso.nintendo.net
 0.0.0.0 *nso.nintendo.net
 0.0.0.0 *.n.n.srv.nintendo.net
