@@ -148,28 +148,6 @@
 # //Log Server
 #0.0.0.0 receive-*.*.srv.nintendo.net
 0.0.0.0 receive-lp1.dg.srv.nintendo.net
-### Adding hosts
-0.0.0.0 receive-lp1.er.srv.nintendo.net
-0.0.0.0 *.srv.nintendo.net
-0.0.0.0 *srv.nintendo.net
-0.0.0.0 *.dg.srv.nintendo.net
-0.0.0.0 *dg.srv.nintendo.net
-0.0.0.0 *.er.srv.nintendo.net
-0.0.0.0 *er.srv.nintendo.net
-0.0.0.0 *.ndas.srv.nintendo.net
-0.0.0.0 *ndas.srv.nintendo.net
-0.0.0.0 *.npns.srv.nintendo.net
-0.0.0.0 *npns.srv.nintendo.net
-0.0.0.0 *.nso.nintendo.net
-0.0.0.0 *nso.nintendo.net
-0.0.0.0 *.n.n.srv.nintendo.net
-0.0.0.0 *n.n.srv.nintendo.net
-0.0.0.0 *.share.srv.nintendo.net
-0.0.0.0 *share.srv.nintendo.net
-0.0.0.0 *.d4c.nintendo.net
-0.0.0.0 *d4c.nintendo.net
-0.0.0.0 *.hac.shop.nintendo.net
-0.0.0.0 *hac.shop.nintendo.net
 ### //Updates
 # //Check for System Updatesv
 #0.0.0.0 sun.hac.*.d4c.nintendo.net
@@ -216,3 +194,29 @@
 ### //Game Checks CERT, Gold, etc...
 # //Checks the Game CERT, RetrieveGold Feature, Link Device and VirtualAccount?
 #0.0.0.0 beach.hac.*.eshop.nintendo.net
+
+### Adding hosts
+0.0.0.0 receive-lp1.er.srv.nintendo.net
+0.0.0.0 nncs2-lp1.n.n.srv.nintendo.net
+0.0.0.0 aauth-lp1.ndas.srv.nintendo.net
+0.0.0.0 *.srv.nintendo.net
+0.0.0.0 *srv.nintendo.net
+0.0.0.0 *.dg.srv.nintendo.net
+0.0.0.0 *dg.srv.nintendo.net
+0.0.0.0 *.er.srv.nintendo.net
+0.0.0.0 *er.srv.nintendo.net
+0.0.0.0 *.ndas.srv.nintendo.net
+0.0.0.0 *ndas.srv.nintendo.net
+0.0.0.0 *.npns.srv.nintendo.net
+0.0.0.0 *npns.srv.nintendo.net
+0.0.0.0 *.nso.nintendo.net
+0.0.0.0 *nso.nintendo.net
+0.0.0.0 *.n.n.srv.nintendo.net
+0.0.0.0 *n.n.srv.nintendo.net
+0.0.0.0 *.share.srv.nintendo.net
+0.0.0.0 *share.srv.nintendo.net
+0.0.0.0 *.d4c.nintendo.net
+0.0.0.0 *d4c.nintendo.net
+0.0.0.0 *.hac.shop.nintendo.net
+0.0.0.0 *hac.shop.nintendo.net
+
