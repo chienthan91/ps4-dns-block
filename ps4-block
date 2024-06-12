@@ -150,10 +150,13 @@
 0.0.0.0 *.share.srv.nintendo.net
 # //Log Server
 #0.0.0.0 receive-*.*.srv.nintendo.net
+0.0.0.0 *receive-lp1.dg.srv.nintendo.net
 0.0.0.0 *.srv.nintendo.net
 0.0.0.0 *.dg.srv.nintendo.net
+0.0.0.0 *receive-lp1.er.srv.nintendo.net
 0.0.0.0 *.er.srv.nintendo.net
 0.0.0.0 *.ndas.srv.nintendo.net
+0.0.0.0 *.nso.nintendo.net
 ### //Updates
 # //Check for System Updatesv
 #0.0.0.0 sun.hac.*.d4c.nintendo.net
