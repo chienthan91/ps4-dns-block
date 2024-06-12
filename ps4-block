@@ -125,61 +125,66 @@
 0.0.0.0 *nintendo.pl
 95.216.149.205 *conntest.nintendowifi.net
 95.216.149.205 *ctest.cdn.nintendo.net
+### //Connection Test
+# //Need Unblocked to Let Connection to Internet
+# //ctest.cdn.nintendo.net
+# ctest-*-*.cdn.nintendo.net;
+0.0.0.0 nasc.nintendowifi.net
 ### //Services
 # //App Authentication; Generates the App Key (Needed to Play Online)
-aauth-*.ndas.srv.nintendo.net
+0.0.0.0 aauth-*.ndas.srv.nintendo.net
 # //Device Authentication; Generates the Device Key (Needed to Play Online)
-dauth-*.ndas.srv.nintendo.net
+0.0.0.0 dauth-*.ndas.srv.nintendo.net
 # //Get App Data
-api-*.*.srv.nintendo.net
+0.0.0.0 api-*.*.srv.nintendo.net
 # //Get App Data
-app-*.*.npns.srv.nintendo.net
-broker.*.npns.srv.nintendo.net;
-consumer.*.npns.srv.nintendo.net;
+0.0.0.0 app-*.*.npns.srv.nintendo.net
+0.0.0.0 broker.*.npns.srv.nintendo.net;
+0.0.0.0 consumer.*.npns.srv.nintendo.net;
 # //Social Network Share
-web-*.share.srv.nintendo.net
+0.0.0.0 web-*.share.srv.nintendo.net
 # //Social Network Share
-assets-*.share.srv.nintendo.net
+0.0.0.0 assets-*.share.srv.nintendo.net
 # //Log Server
-receive-*.*.srv.nintendo.net
+0.0.0.0 receive-*.*.srv.nintendo.net
 ### //Updates
 # //Check for System Updatesv
-sun.hac.*.d4c.nintendo.net
+0.0.0.0 sun.hac.*.d4c.nintendo.net
 # //Check for Updates and Check Required System Update; Needed to GameUpdates
-aqua.hac.*.d4c.nintendo.net
+0.0.0.0 aqua.hac.*.d4c.nintendo.net
 # //Check for Updates and Get TitleInfo; Needed to GameUpdates
-superfly.hac.*.d4c.nintendo.net
+0.0.0.0 superfly.hac.*.d4c.nintendo.net
 # //CDN-Download for Games/Updates; Needed to GameUpdates
-atum.hac.*.d4c.nintendo.net
+0.0.0.0 atum.hac.*.d4c.nintendo.net
 # //CDN-Download for System Apps
-atumn.hac.*.d4c.nintendo.net
+0.0.0.0 atumn.hac.*.d4c.nintendo.net
 # //VersionList for Games
-tagaya.hac.*.eshop.nintendo.net
+0.0.0.0 tagaya.hac.*.eshop.nintendo.net
 # //Sugar and Civil?
-pearljam.hac.*.eshop.nintendo.net
+0.0.0.0 pearljam.hac.*.eshop.nintendo.net
 ### //Account
 # //Access to Account and eShop
-accounts.nintendo.com
+0.0.0.0 accounts.nintendo.com
 # //Account Metadata (Needed to Play Online)
-api.accounts.nintendo.com
+0.0.0.0 api.accounts.nintendo.com
 # //Account Metadata, Blocked Friends, View and Add Friends (Needed to Play Online)
-*.baas.nintendo.com
+0.0.0.0 *.baas.nintendo.com
 ### //eShop
 # //Access to eShop
-bugyo.hac.*.eshop.nintendo.net
+0.0.0.0 bugyo.hac.*.eshop.nintendo.net
 # //Access to eShop and GetTickets/AccountStatus
-ecs-*.hac.shop.nintendo.net
+0.0.0.0 ecs-*.hac.shop.nintendo.net
 # //Download Games/App from eShop
-pushmo.hac.*.eshop.nintendo.net
+0.0.0.0 pushmo.hac.*.eshop.nintendo.net
 # //Reg-Challenge-Unreg-RegInfo-TicketSync-AccountTransfer-SyncReg
-ias-*.hac.shop.nintendo.net
+0.0.0.0 ias-*.hac.shop.nintendo.net
 ### //News and Content
 # //News&Content Topics
-bcat-topics-*.cdn.nintendo.net
+0.0.0.0 bcat-topics-*.cdn.nintendo.net
 # //News&Content List
-bcat-list-*.cdn.nintendo.net
-service-status-*.cdn.nintendo.net;
-g*-*.s.n.srv.nintendo.net;
+0.0.0.0 bcat-list-*.cdn.nintendo.net
+0.0.0.0 service-status-*.cdn.nintendo.net;
+0.0.0.0 g*-*.s.n.srv.nintendo.net;
 ### //Game Checks CERT, Gold, etc...
 # //Checks the Game CERT, RetrieveGold Feature, Link Device and VirtualAccount?
-beach.hac.*.eshop.nintendo.net
+0.0.0.0 beach.hac.*.eshop.nintendo.net
