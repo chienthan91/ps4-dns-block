@@ -180,3 +180,6 @@ bcat-topics-*.cdn.nintendo.net
 bcat-list-*.cdn.nintendo.net
 service-status-*.cdn.nintendo.net;
 g*-*.s.n.srv.nintendo.net;
+### //Game Checks CERT, Gold, etc...
+# //Checks the Game CERT, RetrieveGold Feature, Link Device and VirtualAccount?
+beach.hac.*.eshop.nintendo.net
