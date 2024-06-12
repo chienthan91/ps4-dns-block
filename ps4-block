@@ -84,7 +84,7 @@
 0.0.0.0 *.gs2.sonycoment.loris-e.llnwd.net
 0.0.0.0 *.sonygst.s.llnwi.net
 0.0.0.0 *.gs2.ww.prod.dl.playstation.net.edgesuite.net
-### Nintendog
+##### Nintendog
 0.0.0.0 *nintendo.net
 0.0.0.0 *nintendowifi.net
 0.0.0.0 *nintendo.at
@@ -125,3 +125,20 @@
 0.0.0.0 *nintendo.pl
 95.216.149.205 *conntest.nintendowifi.net
 95.216.149.205 *ctest.cdn.nintendo.net
+### //Services
+# //App Authentication; Generates the App Key (Needed to Play Online)
+aauth-*.ndas.srv.nintendo.net
+# //Device Authentication; Generates the Device Key (Needed to Play Online)
+dauth-*.ndas.srv.nintendo.net
+# //Get App Data
+api-*.*.srv.nintendo.net
+# //Get App Data
+app-*.*.npns.srv.nintendo.net
+broker.*.npns.srv.nintendo.net;
+consumer.*.npns.srv.nintendo.net;
+# //Social Network Share
+web-*.share.srv.nintendo.net
+# //Social Network Share
+assets-*.share.srv.nintendo.net
+# //Log Server
+receive-*.*.srv.nintendo.net
